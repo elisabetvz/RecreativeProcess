@@ -71,6 +71,13 @@ FONTS
   margin-left: 10pt;
 }
 
+.ss10 {
+  font-family:'Suisse-Intl-Light';
+  font-weight: lighter;
+  font-size: 26.4px;
+  line-height: 20pt;
+  margin: 10pt;
+}
 
  /*
   ------------------------------------------------------------------

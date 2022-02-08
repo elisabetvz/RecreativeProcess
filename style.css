@@ -1,0 +1,247 @@
+
+/*
+------------------------------------------------------------------
+FONTS
+------------------------------------------------------------------
+*/
+
+* {
+  font-family:'SuisseBPIntl-Antique';
+  color: black;
+  cursor: auto;
+  text-decoration: none;
+}
+
+.a{
+  font-size: 26.4px;
+}
+
+.ss {
+  font-family:'Helvetica';
+  padding-top: 1rem;
+}
+
+.ss1 {
+  font-family:'Suisse-Intl-Light';
+  font-weight: lighter;
+}
+
+.ss2 {
+  font-size: 50pt;
+  padding-top: 1rem;
+}
+
+.ss3 {
+  font-family: 'SuisseBPIntl-AntiqueItalic';
+}
+
+.ss4 {
+  font-size: 26.4px;
+}
+
+.ss5 {
+  font-family:'Suisse-Intl-Light';
+  font-weight: lighter;
+  font-size: 45pt;
+}
+
+.ss6 {
+  font-family:'SuisseBPIntl-Antique';
+  font-weight: ;
+  font-size: 43pt;
+}
+
+.ss7 {
+  font-family:'Suisse-Intl-Light';
+  font-weight: lighter;
+  font-size: 26.4px;
+  margin-left: 10pt;
+}
+
+.ss8 {
+  font-family:'Steinbeck';
+  font-size: 40px;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.ss9 {
+  font-family:'SuisseBPIntl-Antique';
+  font-size: 26.4px;
+  margin-left: 10pt;
+}
+
+
+ /*
+  ------------------------------------------------------------------
+  TYPEFACES
+  ------------------------------------------------------------------
+  */
+
+  @font-face {
+    font-family: 'SuisseBPIntl-Antique';
+    src: url('fonts/SuisseBPIntl-Antique.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+  }
+
+  @font-face {
+    font-family: 'SuisseBPIntl-AntiqueItalic';
+    src: url('fonts/SuisseBPIntl-AntiqueItalic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+  }
+
+  @font-face {
+    font-family: 'Suisse-Intl-Light';
+    src: url('fonts/Suisseintllight.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+    font-display: auto;
+  }
+
+  @font-face {
+    font-family: 'Steinbeck';
+    src: url('fonts/Steinbeck.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+  }
+
+
+
+.body {
+  display: block;
+  margin-bottom: 1rem;
+  font-family: 'Helvetica';
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: -0.36px;
+  line-height: 18pt;
+}
+
+.body2 {
+  display: block;
+  font-family: 'Helvetica';
+  color: #000000;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.36px;
+  line-height: 20pt;
+}
+
+/*
+------------------------------------------------------------------
+NEW GRID
+------------------------------------------------------------------
+*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns:(4, 1fr);
+  grid-template-rows: (3fr 1fr);    
+  grid-column-gap: .2em;
+  padding-top: .5em;
+  padding-left: .5rem;
+  padding-right: 2rem;
+  cursor: none;
+}
+
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: grid;
+  padding-left: 2rem;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.wrapper2 {
+  display: grid;
+  grid-template-columns:(2, 1fr);
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-template-rows: 4fr;    
+  grid-column-gap: .2em;
+  cursor: none;
+}
+
+.box3 {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  justify-content: right;
+}
+
+  .div-block {
+    padding-top: 1rem;
+    cursor: auto;
+  }
+}
+
+/*-- blank block footer --*/
+
+.div-block2 {
+  padding-top: 2rem;
+  cursor: auto;
+}
+
+/*-- blank block extra --*/
+
+.div-block3 {
+  padding-top: 1rem;
+  cursor: auto;
+}
+
+/*-- vertical line --*/
+.vl {
+  border-left: 6px solid rgb(255, 0, 0);
+  height:fit-content;
+  position:static;
+  left: 50%;
+  margin-left:-3px;
+  top: 10pt;
+}
+
+@media screen and (min-width: 600px){
+  .vl {
+    width:1000;
+  }
+}
+
+/*
+------------------------------------------------------------------
+GALLERY
+------------------------------------------------------------------
+*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  max-width: 100%;
+  padding: 0 4px;
+}
+
+img{
+  width: 100%;
+}
+
+@media screen and (min-width: 600px){
+.column {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  }
+}

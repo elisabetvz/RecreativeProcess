@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+<channel>
+<title>Title of your Feed</title>
+<link>https://recreativeprocess.com/podcast.html</link>
+<description>An exploration of interdisciplinary creativity. Pulling 
+out the extraordinary out of each story, person, project, to create 
+meaningful connections and interesting conversations.</description>
+<item>
+<title>Episode 1</title>
+<link>https://recreativeprocess.com/podcast.html</link>
+<guid>https://recreativeprocess.com/podcast.html</guid>
+<pubDate>Wed, 9 Feb 2022 12:00:00 GMT </pubDate>
+<description>My first podcast.</description>
+</item>
+</channel>
+</rss>
+

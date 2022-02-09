@@ -16,40 +16,17 @@ FONTS
   font-size: 26.4px;
 }
 
-.ss {
-  font-family:'Helvetica';
-  padding-top: 1rem;
-}
 
 .ss1 {
   font-family:'Suisse-Intl-Light';
   font-weight: lighter;
 }
 
-.ss2 {
-  font-size: 50pt;
-  padding-top: 1rem;
-}
 
 .ss3 {
   font-family: 'SuisseBPIntl-AntiqueItalic';
 }
 
-.ss4 {
-  font-size: 26.4px;
-}
-
-.ss5 {
-  font-family:'Suisse-Intl-Light';
-  font-weight: lighter;
-  font-size: 45pt;
-}
-
-.ss6 {
-  font-family:'SuisseBPIntl-Antique';
-  font-weight: ;
-  font-size: 43pt;
-}
 
 .ss7 {
   font-family:'Suisse-Intl-Light';
@@ -58,12 +35,6 @@ FONTS
   margin-left: 10pt;
 }
 
-.ss8 {
-  font-family:'Steinbeck';
-  font-size: 40px;
-  text-decoration: underline;
-  text-decoration-color: red;
-}
 
 .ss9 {
   font-family:'SuisseBPIntl-Antique';
@@ -117,8 +88,6 @@ FONTS
     font-style: normal;
     font-display: auto;
   }
-
-
 
 .body {
   display: block;

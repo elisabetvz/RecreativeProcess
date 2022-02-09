@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
 <channel>
-<webMaster>elisabetv2@hotmail.com</webMaster>
-<author>elisabetv2@hotmail.com</author>
+<author email="elisabetv2@hotmail.com">
+
+  Elisabet Vazquez
+
+ </author>
 <title>Recreative Process</title>
 <link>https://recreativeprocess.com/podcast.html</link>
 <description>An exploration of interdisciplinary creativity. Pulling 
@@ -22,7 +25,6 @@ meaningful connections and interesting conversations.</description>
 <link>https://recreativeprocess.com/podcast.html</link>
 <description><![CDATA[Visit this <a href="http:/www.recreativeprocess.com/podcast.html">link </a>
 to my website!]]></description>
-<author>Elisabet Vazquez</author>
 <category>creativity</category>
 <category>lifestyle</category>
 <enclosure url="https://recreativeprocess.com/podcast.html" length="" type="video/mpeg" />

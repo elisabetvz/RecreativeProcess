@@ -14,7 +14,7 @@ meaningful connections and interesting conversations.</description>
     <width>150</width>
     <height>150</height>
 </image> 
-<author>elisabetv2@hotmail.com (Elisabet Vazquez)</author>
+<author>elisabetv2@hotmail.com</author>
 <item>
 <title>Episode 1</title>
 <pubDate>Wed, 9 Feb 2022 12:00:00 GMT </pubDate>
@@ -23,7 +23,12 @@ meaningful connections and interesting conversations.</description>
 to my website!]]></description>
 <author>elisabetv2@hotmail.com (Elisabet Vazquez)</author>
 <category>creativity</category>
+<category>lifestyle</category>
 <enclosure url="https://recreativeprocess.com/podcast.html" length="" type="video/mpeg" />
 </item>
+
+
+
+<copyright>2022 EVZ. All rights reserved.</copyright>
 </channel>
 </rss>

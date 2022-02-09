@@ -155,13 +155,11 @@ GALLERY
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   max-width: 100%;
-  padding: 0 4px;
 }
 
 img{

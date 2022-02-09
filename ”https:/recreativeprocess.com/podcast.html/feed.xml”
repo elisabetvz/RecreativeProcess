@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://recreativeprocess.com/podcast.html/feed.xml" rel="self" type="application/rss+xml" />
+    <title>YourSite</title>
+    <link>https://recreativeprocess.com/podcast.html</link>
+    <description>An exploration of interdisciplinary creativity. Pulling 
+out the extraordinary out of each story, person, project, to create 
+meaningful connections and interesting conversations.</description>
+    <language>en-GB</language>    
+    <image>
+      <title>Picture Title</title>
+      <link>https://recreativeprocess.com/podcast.html</link>
+      <url>/Users/elisabetvazquez/Desktop/RP/rp/RP1.jpg</url>
+      <width>70</width>
+      <height>55</height>
+    </image>
+    <item>
+      <title>Episode 1</title>
+      <pubDate>Wed, 9 Feb 2022 12:35:00 GMT</pubDate>
+      <link>https://recreativeprocess.com/podcast.html</link>
+      <guid>https://recreativeprocess.com/podcast.html</guid>
+      <description>Information about Web Page 1</description>
+    </item>
+  </channel>
+</rss>

@@ -157,7 +157,7 @@ NEW GRID
 }
 
 .div-block4 {
-  padding-top: 2em;
+  padding-top: 1em;
   padding-left: 10rem;
   padding-right: 10rem;
   align-content: center;
@@ -173,6 +173,20 @@ NEW GRID
     }
   }
   
+.div-block5 {
+    padding-top: 1em;
+    padding-left: 1em;
+    align-content: right;
+    cursor: auto;
+  }
+
+.div-block6 {
+    padding-left: 1em;
+    align-content: right;
+    cursor: auto;
+  }
+
+
 
 img{
   width: 100%;
@@ -209,8 +223,14 @@ FONTS
 }
 
 .ss4 {
-  font-size: 26.4px;
+  font-size: 24px;
 }
+
+@media screen and (min-width: 500px){
+  .ss4 {
+    font-size: 40px;
+    }
+  }
 
 .ss5 {
   font-family:'Suisse-Intl-Light';

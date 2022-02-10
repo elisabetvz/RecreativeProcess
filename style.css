@@ -163,9 +163,20 @@ NEW GRID
   cursor: auto;
 }
 
+
+@media screen and (max-width: 600px){
+  .div-block4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: fit-content;
+    }
+  }
+  
+
 img{
   width: 100%;
 }
+
 
 /*
 ------------------------------------------------------------------
